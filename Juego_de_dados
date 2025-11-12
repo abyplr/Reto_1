@@ -1,0 +1,17 @@
+import random
+#La computadora 'Lanza el dado' (elige un número aleatorio entre 1 y 6)
+num = random.randint(1, 6)
+print(f'El número es: {num}') #Muestra el número que salió 
+#Si el número es 1, se vuelve a lanzar el dado
+while num== 1:
+    print('Vuelve a lanzar')
+    num = random.randint(1, 6)
+    print(f'El nuevo número es: {num}')
+#Si el núero ya no es 1, continua y los condicionales validan si es empate, gana Juan o gana María
+if num == 6:
+    print ('Empate')
+elif num == 2 or num == 3:
+    print ('Gana Juan')
+elif num == 4 or num == 5:
+        print ('Gana María')
+    
