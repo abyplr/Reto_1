@@ -13,5 +13,6 @@ if num == 6:
 elif num == 2 or num == 3:
     print ('Gana Juan')
 elif num == 4 or num == 5:
-        print ('Gana María')
+    print ('Gana María')
     
+
